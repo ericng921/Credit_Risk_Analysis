@@ -66,8 +66,8 @@ Accuracy score: 64.85%
 The high risk precision rate is 1% and the recall is at 72%. F1 score is 2%
 The low risk precision is 100% and recall is 57%. F1 score is 73%.
 
-
-- **BalancedRandomForestClassifier**
+ 
+- **BalancedRandomForestClassifier** A balanced random forest randomly under-samples each boostrap sample to balance it.
 
 ![bal_1](https://user-images.githubusercontent.com/100378319/175752923-41d34ecb-a97a-44cd-8b1e-94b8f73f28be.png)
 ![bal](https://user-images.githubusercontent.com/100378319/175752924-47e31a46-e51e-4768-8d77-87742998427b.png)
@@ -77,7 +77,7 @@ Accuracy score: 78.78%
 The high risk precision rate is 4% and the recall is at 67%. F1 score is 7%
 The low risk precision is 100% and recall is 61%. F1 score is 95%
 
-- **EasyEnsembleClassifier**.
+- **EasyEnsembleClassifier**. The classifier is an ensemble of AdaBoost learners trained on different balanced boostrap samples. The balancing is achieved by random under-sampling.
 
 ![adda_1](https://user-images.githubusercontent.com/100378319/175752931-4a9a5b85-dfb5-4b72-89b4-998ef745cac2.png)
 
