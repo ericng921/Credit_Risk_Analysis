@@ -33,7 +33,6 @@ Accuracy score: 65.38%
 The high risk precision rate is 1% and the recall rate is at 68%. F1 score is 2%
 The low risk precision rate is 100% and recall rate is 62%. F1 score is 77%
 
-
 - SMOTE - incresing the sample size of minority class
 
 ![smote_1](https://user-images.githubusercontent.com/100378319/175752887-4196c7da-36ed-4532-94cd-8440d762acee.png)
