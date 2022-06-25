@@ -47,6 +47,7 @@ The low risk precision is 100% and recall is 69%. F1 score is 81%
 - ClusterCentroids - The algorithm identifies clusters of the majority class, then generates synthetic data points, called centroids, that are representative of the clusters. The majority class is then undersampled down to the size of the minority class.
 - 
 ![un_1](https://user-images.githubusercontent.com/100378319/175752899-a5393b12-4ff2-43b3-904b-9e966bf46f4a.png)
+
 ![Undersampling](https://user-images.githubusercontent.com/100378319/175752900-cd71f8e1-8b72-44ef-b022-5aa116ab1e27.png)
 
 Accuracy score: 54.42%
@@ -57,6 +58,7 @@ The low risk precision is 100% and recall is 40%. F1 score is 57%.
 - SMOTEENN - SMOTEENN first oversample the minority class with SMOTE and then clean the resulting data with an undersampling strategy
 
 ![com_1](https://user-images.githubusercontent.com/100378319/175752911-d1d6a5d7-9f54-4f87-b728-278b2d0b00c9.png)
+
 ![Combination](https://user-images.githubusercontent.com/100378319/175752912-7873e1a3-a335-472f-b599-a77f25c0a79c.png)
 
 Accuracy score: 64.85%
@@ -78,6 +80,7 @@ The low risk precision is 100% and recall is 61%. F1 score is 95%
 - EasyEnsembleClassifier.
 
 ![adda_1](https://user-images.githubusercontent.com/100378319/175752931-4a9a5b85-dfb5-4b72-89b4-998ef745cac2.png)
+
 ![adaboost](https://user-images.githubusercontent.com/100378319/175752932-0c924e94-5ae7-42d2-b310-b0e843ef4360.png)
 
 Accuracy score: 92.54%
